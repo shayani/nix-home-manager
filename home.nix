@@ -23,6 +23,7 @@
     pkgs.htop
     pkgs.neofetch
     pkgs.nerdfonts
+    pkgs.overmind
     pkgs.tmux
     pkgs.vim
 
