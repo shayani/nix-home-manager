@@ -22,17 +22,15 @@
     pkgs.bat
     pkgs.htop
     pkgs.neofetch
-    pkgs.fortune
-    pkgs.zsh-autosuggestions
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    # pkgs.hello
+    pkgs.nerdfonts
+    pkgs.tmux
+    pkgs.vim
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
     # # fonts?
-    # (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "Inconsolata" "Meslo" "FiraCode" ]; })
 
     # # You can also create simple shell scripts directly inside your
     # # configuration. For example, this adds a command 'my-hello' to your
@@ -102,7 +100,7 @@
         "git"
         "asdf"
       ];
-      theme = "fishy";
+      theme = "robbyrussell";
     };
   };
 }
