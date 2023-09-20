@@ -4,8 +4,8 @@
   # imports = [ ./zsh.nix ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  home.username = "fernando";
-  home.homeDirectory = "/home/fernando";
+  home.username = "shayani";
+  home.homeDirectory = "/home/shayani";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -22,7 +22,6 @@
     pkgs.bat
     pkgs.htop
     pkgs.neofetch
-    pkgs.nerdfonts
     pkgs.overmind
     pkgs.tmux
     pkgs.vim
